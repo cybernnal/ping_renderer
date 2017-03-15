@@ -1,3 +1,5 @@
+#include <ping.h>
+
 static void init_texture_renderer(t_window *win, int w, int h)
 {
     if (!(win->img_ptr = (Uint32 *)ft_memalloc(sizeof(Uint32) * w * h)))

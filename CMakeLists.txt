@@ -5,7 +5,7 @@ enable_language(C)
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Ofast -march=native")
 
 set(SOURCE_FILES
-        src/ft_memalloc.c src/render.c)
+        src/ft_memalloc.c src/render.c src/get_time.c src/init_sdl.c src/lst_tools.c src/process_lst.c src/main.c)
 
 include_directories(includes)
 

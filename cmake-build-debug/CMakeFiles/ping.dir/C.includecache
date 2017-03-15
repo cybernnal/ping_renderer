@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/tombillard/ClionProjects/ping/includes/ping.h
+../includes/ping.h
 SDL2/SDL.h
-/Users/tombillard/ClionProjects/ping/includes/SDL2/SDL.h
+../includes/SDL2/SDL.h
 
 /Users/tombillard/ClionProjects/ping/src/ft_memalloc.c
 unistd.h
@@ -19,10 +19,32 @@ strings.h
 -
 stdio.h
 -
+ping.h
+-
 
-/Users/tombillard/ClionProjects/ping/src/ping.c
+/Users/tombillard/ClionProjects/ping/src/get_time.c
+ping.h
+-
+
+/Users/tombillard/ClionProjects/ping/src/init_sdl.c
+ping.h
+-
+
+/Users/tombillard/ClionProjects/ping/src/lst_tools.c
+ping.h
+-
+
+/Users/tombillard/ClionProjects/ping/src/main.c
+ping.h
+-
+
+/Users/tombillard/ClionProjects/ping/src/process_lst.c
+ping.h
+-
+
+/Users/tombillard/ClionProjects/ping/src/render.c
 stdio.h
 -
-../includes/ping.h
-/Users/tombillard/ClionProjects/ping/includes/ping.h
+ping.h
+-
 

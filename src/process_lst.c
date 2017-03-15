@@ -2,6 +2,8 @@
 // Created by tom billard on 15/03/2017.
 //
 
+#include <ping.h>
+
 static t_list *get_new(void)
 {
     t_list *lst;

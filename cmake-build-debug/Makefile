@@ -150,6 +150,141 @@ src/ft_memalloc.c.s:
 	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/ft_memalloc.c.s
 .PHONY : src/ft_memalloc.c.s
 
+src/get_time.o: src/get_time.c.o
+
+.PHONY : src/get_time.o
+
+# target to build an object file
+src/get_time.c.o:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/get_time.c.o
+.PHONY : src/get_time.c.o
+
+src/get_time.i: src/get_time.c.i
+
+.PHONY : src/get_time.i
+
+# target to preprocess a source file
+src/get_time.c.i:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/get_time.c.i
+.PHONY : src/get_time.c.i
+
+src/get_time.s: src/get_time.c.s
+
+.PHONY : src/get_time.s
+
+# target to generate assembly for a file
+src/get_time.c.s:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/get_time.c.s
+.PHONY : src/get_time.c.s
+
+src/init_sdl.o: src/init_sdl.c.o
+
+.PHONY : src/init_sdl.o
+
+# target to build an object file
+src/init_sdl.c.o:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/init_sdl.c.o
+.PHONY : src/init_sdl.c.o
+
+src/init_sdl.i: src/init_sdl.c.i
+
+.PHONY : src/init_sdl.i
+
+# target to preprocess a source file
+src/init_sdl.c.i:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/init_sdl.c.i
+.PHONY : src/init_sdl.c.i
+
+src/init_sdl.s: src/init_sdl.c.s
+
+.PHONY : src/init_sdl.s
+
+# target to generate assembly for a file
+src/init_sdl.c.s:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/init_sdl.c.s
+.PHONY : src/init_sdl.c.s
+
+src/lst_tools.o: src/lst_tools.c.o
+
+.PHONY : src/lst_tools.o
+
+# target to build an object file
+src/lst_tools.c.o:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/lst_tools.c.o
+.PHONY : src/lst_tools.c.o
+
+src/lst_tools.i: src/lst_tools.c.i
+
+.PHONY : src/lst_tools.i
+
+# target to preprocess a source file
+src/lst_tools.c.i:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/lst_tools.c.i
+.PHONY : src/lst_tools.c.i
+
+src/lst_tools.s: src/lst_tools.c.s
+
+.PHONY : src/lst_tools.s
+
+# target to generate assembly for a file
+src/lst_tools.c.s:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/lst_tools.c.s
+.PHONY : src/lst_tools.c.s
+
+src/main.o: src/main.c.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/main.c.o
+.PHONY : src/main.c.o
+
+src/main.i: src/main.c.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/main.c.i
+.PHONY : src/main.c.i
+
+src/main.s: src/main.c.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/main.c.s
+.PHONY : src/main.c.s
+
+src/process_lst.o: src/process_lst.c.o
+
+.PHONY : src/process_lst.o
+
+# target to build an object file
+src/process_lst.c.o:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/process_lst.c.o
+.PHONY : src/process_lst.c.o
+
+src/process_lst.i: src/process_lst.c.i
+
+.PHONY : src/process_lst.i
+
+# target to preprocess a source file
+src/process_lst.c.i:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/process_lst.c.i
+.PHONY : src/process_lst.c.i
+
+src/process_lst.s: src/process_lst.c.s
+
+.PHONY : src/process_lst.s
+
+# target to generate assembly for a file
+src/process_lst.c.s:
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/process_lst.c.s
+.PHONY : src/process_lst.c.s
+
 src/render.o: src/render.c.o
 
 .PHONY : src/render.o
@@ -189,6 +324,21 @@ help:
 	@echo "... src/ft_memalloc.o"
 	@echo "... src/ft_memalloc.i"
 	@echo "... src/ft_memalloc.s"
+	@echo "... src/get_time.o"
+	@echo "... src/get_time.i"
+	@echo "... src/get_time.s"
+	@echo "... src/init_sdl.o"
+	@echo "... src/init_sdl.i"
+	@echo "... src/init_sdl.s"
+	@echo "... src/lst_tools.o"
+	@echo "... src/lst_tools.i"
+	@echo "... src/lst_tools.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/process_lst.o"
+	@echo "... src/process_lst.i"
+	@echo "... src/process_lst.s"
 	@echo "... src/render.o"
 	@echo "... src/render.i"
 	@echo "... src/render.s"

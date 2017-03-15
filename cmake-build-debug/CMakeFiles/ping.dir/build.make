@@ -105,21 +105,151 @@ CMakeFiles/ping.dir/src/render.c.o.provides: CMakeFiles/ping.dir/src/render.c.o.
 CMakeFiles/ping.dir/src/render.c.o.provides.build: CMakeFiles/ping.dir/src/render.c.o
 
 
+CMakeFiles/ping.dir/src/get_time.c.o: CMakeFiles/ping.dir/flags.make
+CMakeFiles/ping.dir/src/get_time.c.o: ../src/get_time.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ping.dir/src/get_time.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ping.dir/src/get_time.c.o   -c /Users/tombillard/ClionProjects/ping/src/get_time.c
+
+CMakeFiles/ping.dir/src/get_time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ping.dir/src/get_time.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tombillard/ClionProjects/ping/src/get_time.c > CMakeFiles/ping.dir/src/get_time.c.i
+
+CMakeFiles/ping.dir/src/get_time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ping.dir/src/get_time.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tombillard/ClionProjects/ping/src/get_time.c -o CMakeFiles/ping.dir/src/get_time.c.s
+
+CMakeFiles/ping.dir/src/get_time.c.o.requires:
+
+.PHONY : CMakeFiles/ping.dir/src/get_time.c.o.requires
+
+CMakeFiles/ping.dir/src/get_time.c.o.provides: CMakeFiles/ping.dir/src/get_time.c.o.requires
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/get_time.c.o.provides.build
+.PHONY : CMakeFiles/ping.dir/src/get_time.c.o.provides
+
+CMakeFiles/ping.dir/src/get_time.c.o.provides.build: CMakeFiles/ping.dir/src/get_time.c.o
+
+
+CMakeFiles/ping.dir/src/init_sdl.c.o: CMakeFiles/ping.dir/flags.make
+CMakeFiles/ping.dir/src/init_sdl.c.o: ../src/init_sdl.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/ping.dir/src/init_sdl.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ping.dir/src/init_sdl.c.o   -c /Users/tombillard/ClionProjects/ping/src/init_sdl.c
+
+CMakeFiles/ping.dir/src/init_sdl.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ping.dir/src/init_sdl.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tombillard/ClionProjects/ping/src/init_sdl.c > CMakeFiles/ping.dir/src/init_sdl.c.i
+
+CMakeFiles/ping.dir/src/init_sdl.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ping.dir/src/init_sdl.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tombillard/ClionProjects/ping/src/init_sdl.c -o CMakeFiles/ping.dir/src/init_sdl.c.s
+
+CMakeFiles/ping.dir/src/init_sdl.c.o.requires:
+
+.PHONY : CMakeFiles/ping.dir/src/init_sdl.c.o.requires
+
+CMakeFiles/ping.dir/src/init_sdl.c.o.provides: CMakeFiles/ping.dir/src/init_sdl.c.o.requires
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/init_sdl.c.o.provides.build
+.PHONY : CMakeFiles/ping.dir/src/init_sdl.c.o.provides
+
+CMakeFiles/ping.dir/src/init_sdl.c.o.provides.build: CMakeFiles/ping.dir/src/init_sdl.c.o
+
+
+CMakeFiles/ping.dir/src/lst_tools.c.o: CMakeFiles/ping.dir/flags.make
+CMakeFiles/ping.dir/src/lst_tools.c.o: ../src/lst_tools.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/ping.dir/src/lst_tools.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ping.dir/src/lst_tools.c.o   -c /Users/tombillard/ClionProjects/ping/src/lst_tools.c
+
+CMakeFiles/ping.dir/src/lst_tools.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ping.dir/src/lst_tools.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tombillard/ClionProjects/ping/src/lst_tools.c > CMakeFiles/ping.dir/src/lst_tools.c.i
+
+CMakeFiles/ping.dir/src/lst_tools.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ping.dir/src/lst_tools.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tombillard/ClionProjects/ping/src/lst_tools.c -o CMakeFiles/ping.dir/src/lst_tools.c.s
+
+CMakeFiles/ping.dir/src/lst_tools.c.o.requires:
+
+.PHONY : CMakeFiles/ping.dir/src/lst_tools.c.o.requires
+
+CMakeFiles/ping.dir/src/lst_tools.c.o.provides: CMakeFiles/ping.dir/src/lst_tools.c.o.requires
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/lst_tools.c.o.provides.build
+.PHONY : CMakeFiles/ping.dir/src/lst_tools.c.o.provides
+
+CMakeFiles/ping.dir/src/lst_tools.c.o.provides.build: CMakeFiles/ping.dir/src/lst_tools.c.o
+
+
+CMakeFiles/ping.dir/src/process_lst.c.o: CMakeFiles/ping.dir/flags.make
+CMakeFiles/ping.dir/src/process_lst.c.o: ../src/process_lst.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/ping.dir/src/process_lst.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ping.dir/src/process_lst.c.o   -c /Users/tombillard/ClionProjects/ping/src/process_lst.c
+
+CMakeFiles/ping.dir/src/process_lst.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ping.dir/src/process_lst.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tombillard/ClionProjects/ping/src/process_lst.c > CMakeFiles/ping.dir/src/process_lst.c.i
+
+CMakeFiles/ping.dir/src/process_lst.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ping.dir/src/process_lst.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tombillard/ClionProjects/ping/src/process_lst.c -o CMakeFiles/ping.dir/src/process_lst.c.s
+
+CMakeFiles/ping.dir/src/process_lst.c.o.requires:
+
+.PHONY : CMakeFiles/ping.dir/src/process_lst.c.o.requires
+
+CMakeFiles/ping.dir/src/process_lst.c.o.provides: CMakeFiles/ping.dir/src/process_lst.c.o.requires
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/process_lst.c.o.provides.build
+.PHONY : CMakeFiles/ping.dir/src/process_lst.c.o.provides
+
+CMakeFiles/ping.dir/src/process_lst.c.o.provides.build: CMakeFiles/ping.dir/src/process_lst.c.o
+
+
+CMakeFiles/ping.dir/src/main.c.o: CMakeFiles/ping.dir/flags.make
+CMakeFiles/ping.dir/src/main.c.o: ../src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/ping.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ping.dir/src/main.c.o   -c /Users/tombillard/ClionProjects/ping/src/main.c
+
+CMakeFiles/ping.dir/src/main.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ping.dir/src/main.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tombillard/ClionProjects/ping/src/main.c > CMakeFiles/ping.dir/src/main.c.i
+
+CMakeFiles/ping.dir/src/main.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ping.dir/src/main.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tombillard/ClionProjects/ping/src/main.c -o CMakeFiles/ping.dir/src/main.c.s
+
+CMakeFiles/ping.dir/src/main.c.o.requires:
+
+.PHONY : CMakeFiles/ping.dir/src/main.c.o.requires
+
+CMakeFiles/ping.dir/src/main.c.o.provides: CMakeFiles/ping.dir/src/main.c.o.requires
+	$(MAKE) -f CMakeFiles/ping.dir/build.make CMakeFiles/ping.dir/src/main.c.o.provides.build
+.PHONY : CMakeFiles/ping.dir/src/main.c.o.provides
+
+CMakeFiles/ping.dir/src/main.c.o.provides.build: CMakeFiles/ping.dir/src/main.c.o
+
+
 # Object files for target ping
 ping_OBJECTS = \
 "CMakeFiles/ping.dir/src/ft_memalloc.c.o" \
-"CMakeFiles/ping.dir/src/render.c.o"
+"CMakeFiles/ping.dir/src/render.c.o" \
+"CMakeFiles/ping.dir/src/get_time.c.o" \
+"CMakeFiles/ping.dir/src/init_sdl.c.o" \
+"CMakeFiles/ping.dir/src/lst_tools.c.o" \
+"CMakeFiles/ping.dir/src/process_lst.c.o" \
+"CMakeFiles/ping.dir/src/main.c.o"
 
 # External object files for target ping
 ping_EXTERNAL_OBJECTS =
 
 ping: CMakeFiles/ping.dir/src/ft_memalloc.c.o
 ping: CMakeFiles/ping.dir/src/render.c.o
+ping: CMakeFiles/ping.dir/src/get_time.c.o
+ping: CMakeFiles/ping.dir/src/init_sdl.c.o
+ping: CMakeFiles/ping.dir/src/lst_tools.c.o
+ping: CMakeFiles/ping.dir/src/process_lst.c.o
+ping: CMakeFiles/ping.dir/src/main.c.o
 ping: CMakeFiles/ping.dir/build.make
 ping: /usr/local/lib/libSDL2main.a
 ping: /usr/local/lib/libSDL2.dylib
 ping: CMakeFiles/ping.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ping"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable ping"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ping.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -129,6 +259,11 @@ CMakeFiles/ping.dir/build: ping
 
 CMakeFiles/ping.dir/requires: CMakeFiles/ping.dir/src/ft_memalloc.c.o.requires
 CMakeFiles/ping.dir/requires: CMakeFiles/ping.dir/src/render.c.o.requires
+CMakeFiles/ping.dir/requires: CMakeFiles/ping.dir/src/get_time.c.o.requires
+CMakeFiles/ping.dir/requires: CMakeFiles/ping.dir/src/init_sdl.c.o.requires
+CMakeFiles/ping.dir/requires: CMakeFiles/ping.dir/src/lst_tools.c.o.requires
+CMakeFiles/ping.dir/requires: CMakeFiles/ping.dir/src/process_lst.c.o.requires
+CMakeFiles/ping.dir/requires: CMakeFiles/ping.dir/src/main.c.o.requires
 
 .PHONY : CMakeFiles/ping.dir/requires
 

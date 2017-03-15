@@ -5,6 +5,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/tombillard/ClionProjects/ping/src/ft_memalloc.c" "/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles/ping.dir/src/ft_memalloc.c.o"
+  "/Users/tombillard/ClionProjects/ping/src/get_time.c" "/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles/ping.dir/src/get_time.c.o"
+  "/Users/tombillard/ClionProjects/ping/src/init_sdl.c" "/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles/ping.dir/src/init_sdl.c.o"
+  "/Users/tombillard/ClionProjects/ping/src/lst_tools.c" "/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles/ping.dir/src/lst_tools.c.o"
+  "/Users/tombillard/ClionProjects/ping/src/main.c" "/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles/ping.dir/src/main.c.o"
+  "/Users/tombillard/ClionProjects/ping/src/process_lst.c" "/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles/ping.dir/src/process_lst.c.o"
   "/Users/tombillard/ClionProjects/ping/src/render.c" "/Users/tombillard/ClionProjects/ping/cmake-build-debug/CMakeFiles/ping.dir/src/render.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

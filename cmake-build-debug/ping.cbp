@@ -89,6 +89,21 @@
 		<Unit filename="/Users/tombillard/ClionProjects/ping/src/ft_memalloc.c">
 			<Option target="ping"/>
 		</Unit>
+		<Unit filename="/Users/tombillard/ClionProjects/ping/src/get_time.c">
+			<Option target="ping"/>
+		</Unit>
+		<Unit filename="/Users/tombillard/ClionProjects/ping/src/init_sdl.c">
+			<Option target="ping"/>
+		</Unit>
+		<Unit filename="/Users/tombillard/ClionProjects/ping/src/lst_tools.c">
+			<Option target="ping"/>
+		</Unit>
+		<Unit filename="/Users/tombillard/ClionProjects/ping/src/main.c">
+			<Option target="ping"/>
+		</Unit>
+		<Unit filename="/Users/tombillard/ClionProjects/ping/src/process_lst.c">
+			<Option target="ping"/>
+		</Unit>
 		<Unit filename="/Users/tombillard/ClionProjects/ping/src/render.c">
 			<Option target="ping"/>
 		</Unit>

@@ -2,6 +2,7 @@
 // Created by tom billard on 15/03/2017.
 //
 
+#include <ping.h>
 float get_time(char *buf)
 {
     char *tmp = strstr(buf, "time") + 5;

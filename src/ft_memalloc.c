@@ -14,6 +14,7 @@
 #include <stdlib.h>
 #include <strings.h>
 #include <stdio.h>
+#include <ping.h>
 
 void	*ft_memalloc(size_t size)
 {

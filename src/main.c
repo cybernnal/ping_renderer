@@ -1,6 +1,7 @@
 #include <ping.h>
 
-int main(void) {
+int main(void)
+{
     char *cmd = "echo 'qwerasdf' | sudo -S ping -i 0.01 8.8.8.8";
     int i = 42;
     char buf[BUFSIZE];

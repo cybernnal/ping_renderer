@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "../includes/ping.h"
+
+#include <ping.h>
 
 static void key_handler(SDL_Event event, t_window *w) {
 
