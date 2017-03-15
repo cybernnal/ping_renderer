@@ -1,0 +1,2 @@
+# **USAGE:**
+` cmake . ;  make ; ./ping
