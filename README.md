@@ -1,2 +1,2 @@
 # **USAGE:**
-` cmake . ;  make ; ./ping
+` cmake . ;  make ; ./ping`
