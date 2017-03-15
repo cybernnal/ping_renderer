@@ -48,5 +48,6 @@ void        init_window(t_window *window);
 float process_list(t_list **lst, t_list **first, float t);
 void print_lst(t_list *lst);
 float get_time(char *buf);
+float get_max(t_list **l);
 
 #endif //PING_PING_H

@@ -41,6 +41,8 @@ float process_list(t_list **lst, t_list **first, float t)
         *first = (*first)->next;
         *lst = (*lst)->next;
         (*lst)->next = NULL;
+        if ((*lst)->t == max)
+            max = get_max(first);
     }
     (*lst)->t = t;
     if (t > max)
