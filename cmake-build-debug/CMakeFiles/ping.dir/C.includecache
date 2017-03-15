@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tombillard/ClionProjects/ping/includes/ping.h
+SDL2/SDL.h
+/Users/tombillard/ClionProjects/ping/includes/SDL2/SDL.h
+
+/Users/tombillard/ClionProjects/ping/src/ft_memalloc.c
+unistd.h
+-
+stdlib.h
+-
+strings.h
+-
+stdio.h
+-
+
+/Users/tombillard/ClionProjects/ping/src/ping.c
+stdio.h
+-
+../includes/ping.h
+/Users/tombillard/ClionProjects/ping/includes/ping.h
+
