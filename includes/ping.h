@@ -9,7 +9,7 @@
 #define BUFSIZE 128
 #define WIDTH 1800
 #define HEIGHT 1100
-#define MAX (float)500
+#define MAX (float)1500
 
 #define ORANGE  (Uint32) ((250 << 16) + (164 << 8) + 1)
 #define MAGENTA (Uint32) ((255 << 16) + (0 << 8) + 255)
@@ -20,7 +20,6 @@
 
 # define L_C(X, x1, x2, y1, y2) ((int)(((X - x1) * (y2 - y1)) / (x2 - x1)) + y1)
 # define L_CF(X, x1, x2, y1, y2) ((float)(((float)((X - x1) * (y2 - y1))) / (float)(x2 - x1)) + y1)
-
 
 #include "SDL2/SDL.h"
 
