@@ -25,6 +25,10 @@ ping.h
 /Users/tombillard/ClionProjects/ping/src/get_time.c
 ping.h
 -
+memory.h
+-
+stdlib.h
+-
 
 /Users/tombillard/ClionProjects/ping/src/init_sdl.c
 ping.h
@@ -43,8 +47,6 @@ ping.h
 -
 
 /Users/tombillard/ClionProjects/ping/src/render.c
-stdio.h
--
 ping.h
--
+/Users/tombillard/ClionProjects/ping/src/ping.h
 

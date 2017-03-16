@@ -10,6 +10,7 @@
 #define WIDTH 1800
 #define HEIGHT 1100
 #define MAX (float)1500
+#define X (int) ((WIDTH - 100) / MAX);
 
 #define ORANGE  (Uint32) ((250 << 16) + (164 << 8) + 1)
 #define MAGENTA (Uint32) ((255 << 16) + (0 << 8) + 255)

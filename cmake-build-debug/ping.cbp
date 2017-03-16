@@ -86,6 +86,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/tombillard/ClionProjects/ping/includes/ping.h">
+			<Option target="ping"/>
+		</Unit>
 		<Unit filename="/Users/tombillard/ClionProjects/ping/src/ft_memalloc.c">
 			<Option target="ping"/>
 		</Unit>

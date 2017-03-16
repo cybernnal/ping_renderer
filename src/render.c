@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-#include <ping.h>
+#include "ping.h"
 
 static void key_handler(SDL_Event event, t_window *w) {
 
@@ -60,8 +58,6 @@ static void line(int x0, int y0, int x1, int y1, t_window *w, Uint32 color)
     }
 }
 
-
-
 static void		draw_pix(t_window *w, int off, int x, int y, Uint32 color)
 {
     float x1 = -(off / 2);
@@ -79,31 +75,30 @@ static void		draw_pix(t_window *w, int off, int x, int y, Uint32 color)
     }
 }
 
-
-static void draw(t_window *w, t_list *lst, float max) {
+static void draw(t_window *w, t_list *lst, float max)
+{
     int i = 0;
-
+    int x;
     while (lst->next) {
+        x = (int) ((WIDTH - 100) / MAX);
         if (w->p) {
             if (w->col)
-                line((int) ((((WIDTH - 100) / MAX) * i) + 50), HEIGHT - (int) L_CF(lst->t, 0, max, 50, HEIGHT - 50),
-                     (int) ((((WIDTH - 100) / MAX) * (i + 1)) + 50),
-                     HEIGHT - (int) L_CF(lst->next->t, 0, max, 50, HEIGHT - 50), w, GREEN);
+                line((x * i) + 50, HEIGHT - (int) L_CF(lst->t, -1, max, 50, HEIGHT - 50), (x * i + 1) + 50,
+                     HEIGHT - (int) L_CF(lst->next->t, -1, max, 50, HEIGHT - 50), w, GREEN);
             else
-                line((int) ((((WIDTH - 100) / MAX) * i) + 50), HEIGHT - (int) L_CF(lst->t, 0, max, 50, HEIGHT - 50),
-                     (int) ((((WIDTH - 100) / MAX) * (i + 1)) + 50),
-                     HEIGHT - (int) L_CF(lst->next->t, 0, max, 50, HEIGHT - 50), w,
-                     (Uint32) L_C(lst->t, 0, max, 0x0000ff, 0xffffff));
+                line((x * i) + 50, HEIGHT - (int) L_CF(lst->t, -1, max, 50, HEIGHT - 50),
+                     (x * i + 1) + 50, HEIGHT - (int) L_CF(lst->next->t, -1, max, 50, HEIGHT - 50), w,
+                     (Uint32) L_C(lst->t, -1, max, 0x0000ff, 0xffffff));
 
         } else {
             if (w->col)
-                draw_pix(w, 4, (int) ((((WIDTH - 100) / MAX) * i) + 50),
+                draw_pix(w, 4, (x * i) + 50,
                          HEIGHT - (int) L_CF(lst->t, 0, max, 50, HEIGHT - 50),
-                         GREEN);//(Uint32)L_C(lst->t, 0, max, 0x0000ff, 0xffffff));
+                         GREEN);
             else
-                draw_pix(w, 2, (int) ((((WIDTH - 100) / MAX) * i) + 50),
-                         HEIGHT - (int) L_CF(lst->t, 0, max, 50, HEIGHT - 50),
-                         (Uint32) L_C(lst->t, 0, max, 0x0000ff, 0xffffff));
+                draw_pix(w, 2, (x * i) + 50,
+                         HEIGHT - (int) L_CF(lst->t, -1, max, 50, HEIGHT - 50),
+                         (Uint32) L_C(lst->t, -1, max, 0x0000ff, 0xffffff));
         }
         lst = lst->next;
         ++i;

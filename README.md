@@ -1,5 +1,5 @@
 # **USAGE:**
-` cmake . ;  make ; ./ping`
+` cmake . ;  make ; ./ping [user mdp for super fast ping]`
 
 # key
 
